@@ -41,5 +41,4 @@
 - Ethical Issues in Cybersecurity 
 
 
-## Repository Structure
-
+## 📁 Folder Structure
