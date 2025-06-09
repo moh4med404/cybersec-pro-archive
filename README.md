@@ -40,6 +40,14 @@ The `practical/` folder contains two subfolders:
 > These folders are currently being populated as I focus on developing practical skills. Practical content will be added continuously.
 
 ---
+## 💡 Tips and Tricks
+
+The `tips-and-tricks/` folder contains short, practical guides for common system and security tasks.  
+Each tip is saved as a numbered PDF with explanations and screenshots.
+
+This folder is continuously updated with new helpful tips and tricks to support practical learning.
+
+---
 
 ## 🚀 Moving Forward
 
