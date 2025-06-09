@@ -25,6 +25,9 @@ The `study/` folder holds four completed theoretical courses, each with its own 
 2. Networking for Cybersecurity  
 3. Endpoint Security  
 4. Cyber Threat Management  
+5. Kali Linux 
+6. Introduction to Cryptography, Hash Functions, and Steganography
+7. Python Programming language
 
 While I have completed these courses, I’m currently **shifting my focus to practical skills**. I may revisit and add more theory materials in the future if I find valuable courses.
 
