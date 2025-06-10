@@ -21,11 +21,11 @@ These certification folders include relevant resources and documents.
 
 The `study/` folder holds four completed theoretical courses, each with its own README and notes in PDF format:
 
-1. Introduction to Cybersecurity  
-2. Networking for Cybersecurity  
-3. Endpoint Security  
-4. Cyber Threat Management  
-5. Kali Linux 
+1. Introduction to Cybersecurity   
+2. Networking for Cybersecurity   
+3. Endpoint Security   
+4. Cyber Threat Management   
+5. Kali Linux   
 6. Introduction to Cryptography, Hash Functions, and Steganography
 7. Python Programming language
 
@@ -33,19 +33,23 @@ While I have completed these courses, I’m currently **shifting my focus to pra
 
 ---
 
-## 🧪 Practical Labs & Tools
+## 🧪 Practical
 
-The `practical/` folder contains two subfolders:
+The `practical/` folder is my central hub for hands-on cybersecurity learning and application. It is organized into distinct categories based on platforms or core skill sets, allowing for direct navigation:
 
-- `labs/` — Hands-on exercises and labs for real-world cybersecurity practice.  
-- `tools/` — Scripts and utilities to support labs and automate common tasks.
+- `tryhackme/`: Dedicated notes and write-ups from TryHackMe rooms and learning paths.
+- `hackthebox/`: Documentation for Hack The Box (HTB) content, including machine write-ups and Academy module notes.
+- `python/`: My learning journal and code examples for Python scripting in cybersecurity.
+- `bash/`: Notes and practical examples for Bash scripting and advanced Linux command-line usage.
+- `powershell/`: Documentation of my learning in PowerShell for Windows security and administration.
+- `general_labs_and_tools/`: A versatile section for any hands-on work that doesn't fit neatly into the above categories (e.g., custom lab setups, miscellaneous tool notes).
 
-> These folders are currently being populated as I focus on developing practical skills. Practical content will be added continuously.
+> This folder is actively being populated as I focus on developing and applying practical cybersecurity skills. Practical content will be added continuously.
 
 ---
 ## 💡 Tips and Tricks
 
-The `tips-and-tricks/` folder contains short, practical guides for common system and security tasks.  
+The `tips-and-tricks/` folder contains short, practical guides for common system and security tasks.   
 Each tip is saved as a numbered PDF with explanations and screenshots.
 
 This folder is continuously updated with new helpful tips and tricks to support practical learning.
