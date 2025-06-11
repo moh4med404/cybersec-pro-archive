@@ -1,0 +1,4 @@
+2025-06-11 21:45:25,622 - INFO - Starting division operation
+2025-06-11 21:45:25,622 - DEBUG - Trying to divide 10 by 0
+2025-06-11 21:45:25,622 - ERROR - Attempted to divide by zero
+2025-06-11 21:45:25,622 - INFO - Result: None
