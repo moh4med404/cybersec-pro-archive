@@ -8,9 +8,9 @@ This folder documents my progress and learnings from various TryHackMe rooms and
 
 | No. | Room / Learning Path & Topic                               |
 |-----|------------------------------------------------------------|
-| 01  | Pre-Security - What is Networking? (OSI Model, TCP/IP, Ports) |
-| 02  | OWASP Top 10 - SQLi Walkthrough (union-based SQL injection) |
-| 03  | Linux Fundamentals - File Permissions & User Management    |
+| 01  | Pre-Security                                               |
+| 02  |                                                            |
+| 03  |                                                            |
 
 ---
 
