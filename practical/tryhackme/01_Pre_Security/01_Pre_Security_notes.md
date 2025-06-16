@@ -5,7 +5,7 @@
 
 Offensive Security refers to proactive security practices where individuals or teams simulate attacks on systems, networks, or applications to identify vulnerabilities before malicious actors can exploit them. It focuses on offensive techniques, essentially "hacking back" in a controlled, ethical manner to help organizations strengthen their defenses. Example: 
 
-<img src="./pre-security-screenshots/screenshot01.jpg" width="800"  alt="Screenshot 1">
+<img src="./pre_security_screenshots/screenshot01.jpg" width="800"  alt="Screenshot 1">
 
 **Explanation**:  
 
@@ -24,8 +24,8 @@ Gobuster will try each word from the wordlist as a directory path (e.g., `http:/
 This helps to discover hidden directories on a web server that might not be visible through regular browsing, which could be useful for penetration testing or bug bounty hunting. now we found hidden page /bank-transfer. 
 
 
-<img src="./pre-security-screenshots/screenshot02.jpg" width="800" alt="Screenshot 2">
-<img src="./pre-security-screenshots/screenshot03.jpg" width="800" alt="Screenshot 3">
+<img src="./pre_security_screenshots/screenshot02.jpg" width="800" alt="Screenshot 2">
+<img src="./pre_security_screenshots/screenshot03.jpg" width="800" alt="Screenshot 3">
 
 **Explanation**:  
 ##### After discovering the hidden /bank-transfer page, we gained access and successfully transferred $2000 from account 2276 to our account (8881)
@@ -34,16 +34,16 @@ This helps to discover hidden directories on a web server that might not be visi
 
 Defensive Security (also known as Blue Teaming) focuses on protecting systems, networks, and data from potential threats by implementing security measures to prevent attacks. Unlike Offensive Security, which involves actively trying to exploit vulnerabilities, defensive security works on identifying, mitigating, and responding to threats to secure an organization's infrastructure. Example: Let's say, as part of your daily work, you open your SIEM dashboard to review the logs and notice unauthorized access logs 
 
-<img src="./pre-security-screenshots/screenshot04.jpg" width="800" alt="Screenshot 4">
-<img src="./pre-security-screenshots/screenshot05.jpg" width="800" alt="Screenshot 5">
+<img src="./pre_security_screenshots/screenshot04.jpg" width="800" alt="Screenshot 4">
+<img src="./pre_security_screenshots/screenshot05.jpg" width="800" alt="Screenshot 5">
 
 In this step, I performed a scan to investigate the suspicious IP address identified in the SIEM logs. This scan helps us gather more information about the potential threat, such as its origin, behavior, and any associated malicious activity.
 
-<img src="./pre-security-screenshots/screenshot06.jpg" width="800" alt="Screenshot 6">
+<img src="./pre_security_screenshots/screenshot06.jpg" width="800" alt="Screenshot 6">
 
 After confirming the malicious nature of the IP address, I proceeded to block it at the firewall level. This step prevents further communication from the compromised IP, mitigating the risk of an ongoing attack or data breach
 
-<img src="./pre-security-screenshots/screenshot07.jpg" width="800"  alt="Screenshot 7">
+<img src="./pre_security_screenshots/screenshot07.jpg" width="800"  alt="Screenshot 7">
 
 ---
 # Networking
@@ -51,7 +51,7 @@ After confirming the malicious nature of the IP address, I proceeded to block it
 
 Networking is the process of connecting with people or devices to share information, resources, or opportunities. In a professional sense, it’s about building relationships to help advance your career or business. In technology, it’s about linking devices to share data and resources.
 
-<img src="./pre-security-screenshots/screenshot08.jpg" width="800"  alt="Screenshot 8">
+<img src="./pre_security_screenshots/screenshot08.jpg" width="800"  alt="Screenshot 8">
 
 Devices on a network are very similar to humans in the fact that we have two ways of being identified:
 
@@ -67,11 +67,11 @@ Devices within a local network will have different private IPs to communicate wi
 
 A **Public IP** is an address accessible over the internet, unique across the web. A **Private IP** is used within local networks and isn’t visible on the internet. A **MAC Address** is a unique identifier assigned to a device’s network interface, used for local network communication.
 
-<img src="./pre-security-screenshots/screenshot09.jpg" width="800"  alt="Screenshot 9">
+<img src="./pre_security_screenshots/screenshot09.jpg" width="800"  alt="Screenshot 9">
 
 Every device on a network has a physical network interface, which is a small chip located on the device’s motherboard. This interface is given a unique identifier called a MAC (Media Access Control) address during manufacturing. The MAC address is made up of twelve hexadecimal characters (numbers and letters from 0–9 and A–F), grouped in pairs and separated by colons, like this: a4:c3:f0:85:ac:2d. The first half of the address identifies the manufacturer of the network interface, while the second half is a unique code assigned to that specific device.
 
-<img src="./pre-security-screenshots/screenshot10.jpg" width="800"  alt="Screenshot 10">
+<img src="./pre_security_screenshots/screenshot10.jpg" width="800"  alt="Screenshot 10">
 
 ### Ping 
 
@@ -79,8 +79,8 @@ Every device on a network has a physical network interface, which is a small chi
 
 You can use ping to test devices on your local network or websites on the internet. It’s easy to use and is already installed on most operating systems like Windows and Linux. To use it, you simply type ping followed by an IP address or website name.
 
-<img src="./pre-security-screenshots/screenshot11.jpg" width="800"  alt="Screenshot 11">
-<img src="./pre-security-screenshots/screenshot12.jpg" width="800"  alt="Screenshot 12">
+<img src="./pre_security_screenshots/screenshot11.jpg" width="800"  alt="Screenshot 11">
+<img src="./pre_security_screenshots/screenshot12.jpg" width="800"  alt="Screenshot 12">
 
 ### Netcat (nc) 
 
@@ -89,7 +89,7 @@ You can use ping to test devices on your local network or websites on the intern
 - Sending or receiving data over a network.
 - Debugging network services.
 
-<img src="./pre-security-screenshots/screenshot13.jpg" width="800"  alt="Screenshot 13">
+<img src="./pre_security_screenshots/screenshot13.jpg" width="800"  alt="Screenshot 13">
 
 **Explanation**:  
 
@@ -112,13 +112,13 @@ nc 8.8.8.8 1234
 - **Block** outbound traffic to known malware domains
 
 
-<img src="./pre-security-screenshots/screenrec01.gif" width="800"  alt="screenrec 1">
+<img src="./pre_security_screenshots/screenrec01.gif" width="800"  alt="screenrec 1">
 
 ### How Data Moves Through a Network
 
 In this task, I'm using a network simulator to observe how data moves through a network. The simulator clearly shows each step a packet takes as it travels from one device to another. I’ll be sending a TCP packet from Computer1 to Computer3 to follow the full process and understand how the connection is established.
 
-<img src="./pre-security-screenshots/screenrec02.gif" width="800"  alt="screenrec 2">
+<img src="./pre_security_screenshots/screenrec02.gif" width="800"  alt="screenrec 2">
 
 ### 🖧 TCP/IP Network Log
 
@@ -150,7 +150,7 @@ In this task, I'm using a network simulator to observe how data moves through a 
 **DNS (Domain Name System)** is like the internet’s phonebook, making it easy for us to connect with websites without having to memorize complicated numbers. Just like every home has a unique mailing address, every device on the internet has a unique numerical label called an IP address, such as 104.26.10.229 — a series of four numbers between 0 and 255 separated by dots. Since remembering these numbers for every site would be tough, DNS lets us use simple names like tryhackme.com instead, which then get translated behind the scenes to the corresponding IP address.
 
 **Domain Hierarchy**
-<img src="./pre-security-screenshots/screenshot14.gif" width="800"  alt="Screenshot 14">
+<img src="./pre_security_screenshots/screenshot14.gif" width="800"  alt="Screenshot 14">
 
 ### 🧠 DNS Enumeration with `nslookup`
 
@@ -186,7 +186,7 @@ Finally, I ran a basic DNS query to get the IP address (A record) of the domain:
 ```bash
 nslookup website.thm
 ```
-<img src="./pre-security-screenshots/screenshot15.jpg" width="800"  alt="Screenshot 15">
+<img src="./pre_security_screenshots/screenshot15.jpg" width="800"  alt="Screenshot 15">
 
 ## HTTP vs HTTPS
 
@@ -249,13 +249,13 @@ While there are many HTTP status codes (and some apps even create their own), he
 Understanding these codes helps when troubleshooting websites or building web applications, as they give insight into how requests are handled and where problems might occur.
 
 **403 Error**
-<img src="./pre-security-screenshots/screenshot16.jpg" width="800"  alt="Screenshot 16"> 
+<img src="./pre_security_screenshots/screenshot16.jpg" width="800"  alt="Screenshot 16"> 
 
 **404 Error**
-<img src="./pre-security-screenshots/screenshot17.jpg" width="800"  alt="Screenshot 17">
+<img src="./pre_security_screenshots/screenshot17.jpg" width="800"  alt="Screenshot 17">
 
 **503 Error**
-<img src="./pre-security-screenshots/screenshot18.jpg" width="800"  alt="Screenshot 18">
+<img src="./pre_security_screenshots/screenshot18.jpg" width="800"  alt="Screenshot 18">
 
 ## Introduction to Cookies
 

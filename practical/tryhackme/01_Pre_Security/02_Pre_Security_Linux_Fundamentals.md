@@ -18,7 +18,7 @@ Displays the username of the current user..
 whoami
 ```
 
-<img src="./pre-security-screenshots/Linux01.jpg" width="800"  alt="Linux 1">
+<img src="./pre_security_screenshots/Linux01.jpg" width="800"  alt="Linux 1">
 
 ---
 
@@ -27,7 +27,7 @@ whoami
 `cat` — Displays file content (e.g., `cat file.txt`)  
 `pwd` — Prints the current directory (e.g., `pwd`)  
 
-<img src="./pre-security-screenshots/Linux02.jpg" width="800"  alt="Linux 2">
+<img src="./pre_security_screenshots/Linux02.jpg" width="800"  alt="Linux 2">
 
 ---
 
@@ -39,7 +39,7 @@ whoami
 `find -type d` — Finds only directories (e.g., `find . -type d`)  
 `find -exec` — Executes a command on found items (e.g., `find . -name "*.log" -exec rm {} \;`)  
 
-<img src="./pre-security-screenshots/Linux03.jpg" width="800"  alt="Linux 3">
+<img src="./pre_security_screenshots/Linux03.jpg" width="800"  alt="Linux 3">
 
 ---
 
@@ -52,7 +52,7 @@ whoami
 `grep -n` — Shows line numbers along with matching lines (e.g., `grep -n "TODO" file.txt`)  
 `grep -l` — Lists only filenames with matches (e.g., `grep -l "function" *.py`)  
 
-<img src="./pre-security-screenshots/Linux04.jpg" width="800"  alt="Linux 4">
+<img src="./pre_security_screenshots/Linux04.jpg" width="800"  alt="Linux 4">
 
 ---
 
@@ -63,7 +63,7 @@ whoami
 `>` — Redirects output to a file, replacing its contents (e.g., `echo "Hello" > file.txt`)  
 `>>` — Appends output to a file without replacing existing content (e.g., `echo "More" >> file.txt`)  
 
-<img src="./pre-security-screenshots/Linux05.jpg" width="800"  alt="Linux 5">
+<img src="./pre_security_screenshots/Linux05.jpg" width="800"  alt="Linux 5">
 
 ---
 
@@ -72,8 +72,8 @@ whoami
 `--help` — Displays a brief help message about how to use a command (e.g., `ls --help`)  
 `man` — Opens the manual page for a command with detailed documentation (e.g., `man ls`)  
 
-<img src="./pre-security-screenshots/Linux06.jpg" width="400"  alt="Linux 6">
-<img src="./pre-security-screenshots/Linux07.jpg" width="400"  alt="Linux 7">
+<img src="./pre_security_screenshots/Linux06.jpg" width="400"  alt="Linux 6">
+<img src="./pre_security_screenshots/Linux07.jpg" width="400"  alt="Linux 7">
 
 ---
 
@@ -106,7 +106,7 @@ Permissions are grouped in **three sets of three**:
 - **Group** permissions: `r-x` (read, no write, execute)  
 - **Others** permissions: `r--` (read only)  
 
-<img src="./pre-security-screenshots/Linux08.jpg" width="800"  alt="Linux 8">
+<img src="./pre_security_screenshots/Linux08.jpg" width="800"  alt="Linux 8">
 
 ---
 
@@ -131,7 +131,7 @@ su username        # Switch user, but keep root's PATH
 su -l username     # Switch user and use username's environment
 ```
 
-<img src="./pre-security-screenshots/Linux09.jpg" width="800"  alt="Linux 9">
+<img src="./pre_security_screenshots/Linux09.jpg" width="800"  alt="Linux 9">
 
 ---
 
@@ -150,7 +150,7 @@ To connect via SSH, use the following format:
 ssh username@IP_address
 ```
 
-<img src="./pre-security-screenshots/Linux10.jpg" width="800"  alt="Linux 10">
+<img src="./pre_security_screenshots/Linux10.jpg" width="800"  alt="Linux 10">
 
 ---
 
@@ -194,7 +194,7 @@ ls
 `Ctrl + W` — Searches for text inside the file  
 `Ctrl + G` — Opens Nano’s help menu  
 
-<img src="./pre-security-screenshots/Linux11.jpg" width="800"  alt="Linux 11">
+<img src="./pre_security_screenshots/Linux11.jpg" width="800"  alt="Linux 11">
 
 ---
 
@@ -214,7 +214,7 @@ ls
 `/text` — Searches for “text” in the file  
 `u` — Undoes the last change  
 
-<img src="./pre-security-screenshots/Linux12.jpg" width="800"  alt="Linux 12">
+<img src="./pre_security_screenshots/Linux12.jpg" width="800"  alt="Linux 12">
 
 ---
 
@@ -263,7 +263,7 @@ To see running processes in your current session:
 ```bash
 ps
 ```
-<img src="./pre-security-screenshots/Linux13.jpg" width="800"  alt="Linux 13">
+<img src="./pre_security_screenshots/Linux13.jpg" width="800"  alt="Linux 13">
 
 This will display:
 - PID
@@ -291,7 +291,7 @@ Use the `top` command to see live process activity:
 ```bash
 top
 ```
-<img src="./pre-security-screenshots/Linux14.jpg" width="800"  alt="Linux 14">
+<img src="./pre_security_screenshots/Linux14.jpg" width="800"  alt="Linux 14">
 
 - Updates every 10 seconds by default.
 - You can scroll to explore more processes.
@@ -352,7 +352,7 @@ Use `&` to run a command in the background:
 ```bash
 echo "Hello World" &
 ```
-<img src="./pre-security-screenshots/Linux15.jpg" width="800"  alt="Linux 15">
+<img src="./pre_security_screenshots/Linux15.jpg" width="800"  alt="Linux 15">
 
 This allows you to continue using the terminal while the process runs.
 
@@ -449,7 +449,7 @@ cd /var/log/
 ls
 ```
 
-<img src="./pre-security-screenshots/Linux16.jpg" width="800"  alt="Linux 16">
+<img src="./pre_security_screenshots/Linux16.jpg" width="800"  alt="Linux 16">
 
 ### 📑 Why Logs Matter for System Health & Security
 
@@ -475,7 +475,7 @@ For example, web server logs such as Apache2 or Nginx maintain:
 sudo tail -f /var/log/apache2
 ls
 ```
-<img src="./pre-security-screenshots/Linux17.jpg" width="800"  alt="Linux 17">
+<img src="./pre_security_screenshots/Linux17.jpg" width="800"  alt="Linux 17">
 
 <br><br>
 > **Note:** These notes document hands-on learning from the TryHackMe *Pre-Security* path. The exercises cover fundamental cybersecurity topics, including Linux basics, networking concepts, and web technologies. This document is intended for personal learning, revision, and ethical skill development. All screenshots, commands, and actions are for educational purposes only.  
