@@ -12,6 +12,7 @@ The `certifications/` folder contains materials for:
 
 - **CISCO - Introduction to Cybersecurity**
 - **CISCO - Junior Cybersecurity Analyst Career Path**
+- **ChatGPT for Cybersecurity**
 
 These certification folders include relevant resources and documents.
 
