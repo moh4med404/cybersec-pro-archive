@@ -41,8 +41,6 @@ The `practical/` folder is my central hub for hands-on cybersecurity learning an
 - `tryhackme/`: Dedicated notes and write-ups from TryHackMe rooms and learning paths.
 - `hackthebox/`: Documentation for Hack The Box (HTB) content, including machine write-ups and Academy module notes.
 - `python/`: My learning journal and code examples for Python scripting in cybersecurity.
-- `bash/`: Notes and practical examples for Bash scripting and advanced Linux command-line usage.
-- `powershell/`: Documentation of my learning in PowerShell for Windows security and administration.
 - `general_labs_and_tools/`: A versatile section for any hands-on work that doesn't fit neatly into the above categories (e.g., custom lab setups, miscellaneous tool notes).
 
 > This folder is actively being populated as I focus on developing and applying practical cybersecurity skills. Practical content will be added continuously.
