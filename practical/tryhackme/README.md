@@ -9,7 +9,7 @@ This folder documents my progress and learnings from various TryHackMe rooms and
 | No. | Room / Learning Path & Topic                               |
 |-----|------------------------------------------------------------|
 | 01  | Pre-Security                                               |
-| 02  |                                                    |
+| 02  | cyber security 101                                         |
 | 03  |                                                            |
 
 ---
