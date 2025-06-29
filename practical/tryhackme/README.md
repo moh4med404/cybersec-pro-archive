@@ -17,6 +17,10 @@ This folder documents my progress and learnings from various TryHackMe rooms and
 📝 This collection is continuously updated with new TryHackMe modules and notes.   
 Check back regularly for more helpful guides.
 
+- These are my notes from learning on TryHackMe and other platforms.
+- No flags or room answers are included.
+- All notes and screenshots are original and for educational use only.
+- Not affiliated with TryHackMe.
 ---
 
 _Last updated: June 2025_

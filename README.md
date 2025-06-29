@@ -4,17 +4,6 @@ Welcome to **Cybersec-Pro-Archive**, a personal repository to organize and docum
 
 This repo is structured to separate **certifications**, **theoretical study materials**, and **practical exercises** to build well-rounded skills in cybersecurity.
 
----
-
-## 📚 Certifications
-
-The `certifications/` folder contains materials for:
-
-- **CISCO - Introduction to Cybersecurity**
-- **CISCO - Junior Cybersecurity Analyst Career Path**
-- **ChatGPT for Cybersecurity**
-- **TryHackMe Pre Security**
-These certification folders include relevant resources and documents.
 
 ---
 
