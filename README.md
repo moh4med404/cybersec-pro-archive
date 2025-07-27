@@ -1,10 +1,5 @@
 # Cybersec-Pro-Archive
 
-Welcome to **Cybersec-Pro-Archive**, a personal repository to organize and document my cybersecurity learning journey.
-
-This repo is structured to separate **certifications**, **theoretical study materials**, and **practical exercises** to build well-rounded skills in cybersecurity.
-
-
 ---
 
 ## 📖 Study Courses
@@ -18,8 +13,6 @@ The `study/` folder holds four completed theoretical courses, each with its own 
 5. Kali Linux   
 6. Introduction to Cryptography, Hash Functions, and Steganography
 7. Python Programming language
-
-While I have completed these courses, I’m currently **shifting my focus to practical skills**. I may revisit and add more theory materials in the future if I find valuable courses.
 
 ---
 
@@ -44,16 +37,7 @@ This folder is continuously updated with new helpful tips and tricks to support 
 
 ---
 
-## 🚀 Moving Forward
-
-With the theoretical foundation established, I’m now dedicating more time and effort to the **practical side** of cybersecurity — working on labs, tools, and real-world scenarios.
-
-This practical work will help deepen my understanding and prepare me for career challenges ahead.
-
----
-
 Thank you for visiting and following along!
 
 ---
 
-*Last updated: 2025-06-08*
