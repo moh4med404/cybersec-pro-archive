@@ -1,4 +1,4 @@
-# Suspicious File Permissions Checker (Blue Team)
+# Suspicious File Permissions Checker 
 
 Scans critical directories for world-writable files that may indicate misconfigurations or security risks.
 

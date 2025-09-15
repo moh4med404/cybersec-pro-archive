@@ -1,4 +1,4 @@
-# Login History Reporter (Blue Team)
+# Login History Reporter 
 
 Generates a report of all user logins in the last 7 days for auditing purposes.
 

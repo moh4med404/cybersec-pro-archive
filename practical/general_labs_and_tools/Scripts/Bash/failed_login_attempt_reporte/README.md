@@ -1,4 +1,4 @@
-# Failed Login Attempt Reporter (Blue Team)
+# Failed Login Attempt Reporter
 
 Parses Linux authentication logs to report failed login attempts, including user and IP.
 
